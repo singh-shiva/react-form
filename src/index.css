@@ -11,3 +11,191 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 100%);
+}
+.form-content{
+  border:1px solid green;
+  border-radius: 5px;
+  margin: 2rem;
+  padding: 2rem;
+  width: 50%;
+}
+.form-content:hover{
+  box-shadow: 2px 2px 5px 5px white;
+  transition: all 2s;
+}
+.first{
+  background-color: beige;
+  width: 100%;
+  height: 1.5rem;
+  border-radius:5px;
+  border:2px solid lightskyblue;
+  margin-top: 4px;
+}
+.first::placeholder{
+  padding-left: 5px;
+}
+.first-name{
+  font:bold;
+  font-weight: 500;
+}
+.last-name{
+  font:bold;
+  font-weight: 500;
+}
+.last{
+  background-color: beige;
+  width: 100%;
+  height: 1.5rem;
+  border-radius:5px;
+  border:2px solid lightskyblue;
+  margin-top: 4px;
+}
+.last::placeholder{
+  padding-left: 5px;
+}
+.email{
+  font:bold;
+  font-weight: 500;
+}
+.email-input{
+  background-color: beige;
+  width: 100%;
+  height: 1.5rem;
+  border-radius:5px;
+  border:2px solid lightskyblue;
+  margin-top: 4px;
+}
+.email-input::placeholder{
+  padding-left: 5px;
+}
+.country{
+  font:bold;
+  font-weight: 500;
+}
+.country-input{
+  background-color: beige;
+  width: 100%;
+  height: 1.5rem;
+  border-radius:5px;
+  border:2px solid lightskyblue;
+  margin-top: 4px;
+}
+.country-input::placeholder{
+  padding-left: 5px;
+}
+.street-address{
+  font:bold;
+  font-weight: 500;
+}
+.street-address-input{
+  background-color: beige;
+  width: 100%;
+  height: 1.5rem;
+  border-radius:5px;
+  border:2px solid lightskyblue;
+  margin-top: 4px;
+}
+.street-address-input::placeholder{
+  padding-left: 5px;
+}
+.city{
+  font:bold;
+  font-weight: 500;
+}
+.city-input{
+  background-color: beige;
+  width: 100%;
+  height: 1.5rem;
+  border-radius:5px;
+  border:2px solid lightskyblue;
+  margin-top: 4px;
+}
+.city-input::placeholder{
+  padding-left: 5px;
+}
+.state{
+  font:bold;
+  font-weight: 500;
+}
+.state-input{
+  background-color: beige;
+  width: 100%;
+  height: 1.5rem;
+  border-radius:5px;
+  border:2px solid lightskyblue;
+  margin-top: 4px;
+}
+.state-input::placeholder{
+  padding-left: 5px;
+}
+.zip, .push-not{
+  font:bold;
+  font-weight: 500;
+}
+.by-email{
+  font:bold;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.zip-input{
+  background-color: beige;
+  width: 100%;
+  height: 1.5rem;
+  border-radius:5px;
+  border:2px solid lightskyblue;
+  margin-top: 4px;
+}
+.zip-input::placeholder{
+  padding-left: 5px;
+}
+.form-content::p{
+  font-size: 5rem;
+}
+.by-email-checkbox{
+  width: 15px;
+  height: 15px;
+  border: 2px solid blue;
+}
+.checkbox-container{
+  display: flex;
+  gap:5px;
+}
+.by-email-label{
+  font:bold;
+  font-weight: 500;
+}
+.by-email-para{
+  margin-top: auto;
+  margin-left: 26px;
+  color: gray;
+}
+.push-para{
+  margin-top: auto;
+  color: gray;
+}
+.push-radio-btn{
+  width: 15px;
+  height: 15px;
+}
+.push-radio-label{
+  font:bold;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.final-btn{
+  height: 28px;
+  width: 55px;
+  background-color: blue;
+  color: white;
+  font: bold;
+  font-weight:700;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
